@@ -5,11 +5,11 @@
 #include <stdio.h>
 
 	/**
-	 * main - assigns a random number to the int n
-	 * each time it is executed
+	 * main - Entry point
 	 *
 	 * Return: Always 0 (Success)
 	 */
+
 int main(void)
 
 {
