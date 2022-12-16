@@ -5,7 +5,7 @@
 #include <stdio.h>
 
 	/**
-	 * main - Entry point assigns a random number to the int n
+	 * main - assigns a random number to the int n
 	 * each time it is executed
 	 *
 	 * Return: Always 0 (Success)
