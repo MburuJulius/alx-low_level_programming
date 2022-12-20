@@ -8,7 +8,7 @@ int main(void)
 {
 	int n;
 
-	n = 48
+	n = 48;
 	if (n < 58)
 	{
 	putchar(n);
