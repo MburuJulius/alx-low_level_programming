@@ -9,13 +9,14 @@ int main(void)
 	int n;
 
 	n = 48;
-	if (n < 58)
+	while (n < 58)
 	{
 	putchar(n);
-	while (n != 57)
+	if (n != 57)
 	putchar(',');
 	putchar(' ');
-	}
+	} 
+	n++;
 	putchar('\n');
 	return (0);
 }
