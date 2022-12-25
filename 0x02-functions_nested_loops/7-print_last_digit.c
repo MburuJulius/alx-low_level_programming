@@ -11,14 +11,9 @@ int print_last_digit(int x)
 	int y = (x % 10);
 
 	if (x < 0)
-		x = (x * -1);
 	{
+		x = (x * -1);
+	}
 		_putchar(y + '0');
 		return (y);
-	}
-	else if (x > 0)
-	{
-		-putchar(y + '0');
-		return (y);
-	}
 }
