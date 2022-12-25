@@ -4,7 +4,7 @@
  *
  * @n: the integer to be checked/entered
  *
- * Return: returns 1 if n is positive, 0 if n zero, -1if n is negative
+ * Return: returns 1 if n is positive, 0 if n zero, -1 if n is negative
  */
 int print_sign(int n)
 {
@@ -18,7 +18,7 @@ int print_sign(int n)
 		_putchar('0');
 		return(0);
 	}
-	if (n = 0)
+	else
 	{
 		_putchar('-');
 		return (-1);
