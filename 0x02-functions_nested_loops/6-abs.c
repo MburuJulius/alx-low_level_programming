@@ -4,7 +4,7 @@
  *
  * @v: integer whose absolute value will be computed
  *
- * Return: returns absolute value of v 
+ * Return: returns absolute value of v
  */
 int _abs(int v)
 {
