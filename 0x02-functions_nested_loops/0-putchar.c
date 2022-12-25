@@ -6,7 +6,9 @@
  */
 int main(void)
 {
-	char p = "_putchar";
+	char p;
+		
+	p = "_putchar";
 
 	while (p)
 	{
