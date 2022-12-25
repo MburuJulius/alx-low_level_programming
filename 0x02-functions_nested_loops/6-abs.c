@@ -8,9 +8,12 @@ int _abs(int)
 {
 	int v;
 
-	for (v)
+	if (v >= 0)
 	{
-		_putchar(%d, v);
+		return (v);
 	}
-	return (0);
+	else if (v < 0)
+	{
+		return (v * -1);
+	}
 }
