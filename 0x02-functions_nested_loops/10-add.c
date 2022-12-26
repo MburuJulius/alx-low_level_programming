@@ -2,17 +2,13 @@
 /**
  * add - sums up two numbers
  * 
- * @x,y: the numbers to be summed up
+ * @a, b: the numbers to be summed up
  *
  * Return: returns sum of the two numbers
  */
-int add(int, int)
+int add(int a, int b)
 {
-	int x, y, z;
+	int c = (a + b);
 
-	while (z = (x + y));
-	{
-		_putchar(z);
-	}
-	return (z);
+	return (c);
 }
