@@ -4,7 +4,7 @@
  * print_to_98 - prints all natural numbers from input number n to 98
  *
  * @n: input  number
- * 
+ *
  * Return: void
  */
 void print_to_98(int n)
@@ -12,13 +12,13 @@ void print_to_98(int n)
 	if (n < 98)
 	{
 		for (n = n; n < 98; n++)
-			printf("%d,", n);
+			printf("%d, ", n);
 		printf("%d\n", 98);
 	}
 	else
 	{
 		for (n = n; n > 98; n--)
-			printf("%d,", n);
+			printf("%d, ", n);
 		printf("%d\n", 98);
 	}
 }
