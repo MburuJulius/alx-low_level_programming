@@ -1,8 +1,9 @@
 #include "main.h"
 /**
  * add - sums up two numbers
- * 
- * @a, b: the numbers to be summed up
+ *
+ * @a: the first number in the sum
+ * @b: the second number in the sum
  *
  * Return: returns sum of the two numbers
  */
